@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- CSS -->
+    <link href="/dist/output.css" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+    <!-- LIBRARIES -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Hurricane&family=Rock+3D&display=swap"
+      rel="stylesheet"
+    />
+    <!-- TAILWIND -->
+    <link
+      href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.CSS"
+      rel=" stylesheet"
+    />
+  </head>
+
+  <body class="bg-[#000935] text-center grid ">
+    <div class="text-white flex justify-center items-center flex-col gap-11">
+      <h1 class="text-4xl">K&D Quiz App</h1>
+      <h2 class="text-4xl">please select your questions</h2>
+      <div class="">
+        <select class="bg-[#60c401] p-5 text-4xl text-white">
+          <option value="0">Select Questions</option>
+          <option value="1">muiple choice (4)</option>
+        </select>
+        <select class="bg-[#60c401] p-5 text-4xl text-white">
+          <option value="0">Select the diffcutly</option>
+          <option value="1">Easy</option>
+          <option value="2">Medium</option>
+          <option value="3">Hard</option>
+        </select>
+      </div>
+      <button class="bg-[#61c501] rounded-full w-1/2 p-1.5 text-4xl text-white ">Start Quiz</button>
+    </div>
+  </body>
+  <script src="script.js"></script>
+</html>
